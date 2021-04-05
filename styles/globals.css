@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.uk-text-underline {
+  text-decoration: underline;
+}
+
+.gambar {
+  background-image: url(/1.jpg);
+}

@@ -1,8 +1,11 @@
 import Head from "next/head"
 import Layout from "@components/layout"
-import "../node_modules/uikit/dist/css/uikit.css"
-import "../node_modules/uikit/dist/js/uikit.js"
-import "../node_modules/uikit/dist/js/uikit-icons.js"
+import "../node_modules/uikit/dist/css/uikit.min.css"
+import UIKit from 'uikit'
+import Icons from 'uikit/dist/js/uikit-icons'
+import "../styles/globals.css"
+
+UIKit.use(Icons)
 
 function MyApp({ Component, pageProps }) {
   return (
